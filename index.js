@@ -3,7 +3,7 @@ const app = express();
 
 // Define the root route
 app.get("/", (req, res) => {
-  res.send("Hello World! sanny");
+  res.send("server is running 5000");
 });
 
 // Set the port to listen on
